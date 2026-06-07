@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-raydium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Raydium automated market maker and liquidity provider on Solana powering swaps farms and token launches",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-raydium",
