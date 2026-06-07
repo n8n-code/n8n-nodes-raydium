@@ -1,0 +1,701 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/pools": {
+      "get": {
+        "summary": "Get Pools",
+        "operationId": "get_pools_pools_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pairs": {
+      "get": {
+        "summary": "Get Pairs",
+        "operationId": "get_pairs_pairs_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/info": {
+      "get": {
+        "summary": "Get Info",
+        "operationId": "get_info_info_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/info": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Info",
+        "operationId": "get_info_v2_main_info_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/rpcs": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Rpcs",
+        "operationId": "get_rpcs_v2_main_rpcs_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/version": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Version",
+        "operationId": "get_version_v2_main_version_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/ido/pools": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Ido Infos",
+        "operationId": "get_ido_infos_v2_main_ido_pools_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/ido/project/{ido_id}": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Ido Project Info",
+        "operationId": "get_ido_project_info_v2_main_ido_project__ido_id__get",
+        "parameters": [
+          {
+            "name": "ido_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Ido Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/migrate-lp": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Migrate Lp",
+        "operationId": "get_migrate_lp_v2_main_migrate_lp_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/chain/time": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Chain Time",
+        "operationId": "get_chain_time_v2_main_chain_time_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/price": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Coin Price",
+        "operationId": "get_coin_price_v2_main_price_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/farm/info": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Farm Info",
+        "operationId": "get_farm_info_v2_main_farm_info_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/pairs/all": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Pairs All",
+        "operationId": "get_pairs_all_v2_main_pairs_all_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/main/pairs": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Pairs",
+        "operationId": "get_pairs_v2_main_pairs_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/token/raydium.mainnet.json": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Token Raydium",
+        "operationId": "get_token_raydium_v2_sdk_token_raydium_mainnet_json_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/liquidity/mainnet.json": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Liquidity",
+        "operationId": "get_liquidity_v2_sdk_liquidity_mainnet_json_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/liquidity/mainnet.ui.json": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Liquidity Ui Swap",
+        "operationId": "get_liquidity_ui_swap_v2_sdk_liquidity_mainnet_ui_json_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/liquidity/mint/{mint1}/{mint2}": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Liquidity Item Mint",
+        "operationId": "get_liquidity_item_mint_v2_sdk_liquidity_mint__mint1___mint2__get",
+        "parameters": [
+          {
+            "name": "mint1",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Mint1"
+            }
+          },
+          {
+            "name": "mint2",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Mint2"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/farm/mainnet.json": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Farm",
+        "operationId": "get_farm_v2_sdk_farm_mainnet_json_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/sdk/farm-v2/mainnet.json": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Farm V2",
+        "operationId": "get_farm_v2_v2_sdk_farm_v2_mainnet_json_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/snapshot/farm-staker/{pool_id}": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Farm Staker",
+        "operationId": "get_farm_staker_v2_snapshot_farm_staker__pool_id__get",
+        "parameters": [
+          {
+            "name": "pool_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Pool Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/ammV3/ammConfigs": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Amm Info",
+        "operationId": "get_amm_info_v2_ammV3_ammConfigs_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/ammV3/ammPools": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Pools",
+        "operationId": "get_pools_v2_ammV3_ammPools_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/ammV3/positionLine/{pool_id}": {
+      "get": {
+        "tags": [
+          "V2"
+        ],
+        "summary": "Get Position Line R",
+        "operationId": "get_position_line_r_v2_ammV3_positionLine__pool_id__get",
+        "parameters": [
+          {
+            "name": "pool_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Pool Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/a/admin/self_info": {
+      "get": {
+        "summary": "Get Self Info",
+        "operationId": "get_self_info_a_admin_self_info_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/a/admin/self_ip": {
+      "get": {
+        "summary": "Get Self Ip",
+        "operationId": "get_self_ip_a_admin_self_ip_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pyth/pools": {
+      "get": {
+        "summary": "Get Pyth Mainnet Pools",
+        "operationId": "get_pyth_mainnet_pools_pyth_pools_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ray/totalcoins": {
+      "get": {
+        "summary": "Totalcoins",
+        "operationId": "totalcoins_ray_totalcoins_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ray/circulating": {
+      "get": {
+        "summary": "Circulating",
+        "operationId": "circulating_ray_circulating_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/server-check": {
+      "get": {
+        "summary": "Server Check",
+        "operationId": "server_check_server_check_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}
