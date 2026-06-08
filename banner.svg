@@ -1,0 +1,82 @@
+<svg width="1584" height="396" viewBox="0 0 1584 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1584" height="396" fill="#F5F5F5"/>
+<g id="Awesome banner" clip-path="url(#clip0_0_1)">
+<rect width="1584" height="396" fill="url(#paint0_linear_0_1)"/>
+<ellipse id="Ellipse 2" cx="323" cy="64" rx="285" ry="288" fill="url(#paint1_linear_0_1)" fill-opacity="0.1"/>
+<g id="copyright">
+<text fill="white" fill-opacity="0.9" style="white-space: pre" xml:space="preserve" font-family="JetBrains Mono" font-size="32" font-weight="100" letter-spacing="0em"><tspan x="127.562" y="334.52"> - COMMUNITY NODES</tspan></text>
+<text fill="white" fill-opacity="0.9" style="white-space: pre" xml:space="preserve" font-family="JetBrains Mono" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="70" y="334.52">N8N</tspan></text>
+</g>
+<text id="placeholder-description" fill="white" fill-opacity="0.7" style="white-space: pre" xml:space="preserve" font-family="JetBrains Mono" font-size="24" letter-spacing="0em"><tspan x="70" y="197.64">Raydium automated market maker and liquidity</tspan><tspan x="70" y="229.64">provider on Solana powering swaps farms and</tspan><tspan x="70" y="261.64">token launches</tspan></text>
+<text id="placeholder-name" fill="url(#paint2_linear_0_1)" style="white-space: pre" xml:space="preserve" font-family="JetBrains Mono" font-size="96" font-weight="500" letter-spacing="0em"><tspan x="62" y="136.06">RAYDIUM</tspan></text>
+<g id="Group 1">
+<rect id="Rectangle 1" x="26" y="168" width="12" height="184" rx="5" fill="url(#paint3_linear_0_1)" fill-opacity="0.9"/>
+</g>
+<g id="Group 1_2">
+<rect id="Rectangle 2" x="26" y="38" width="12" height="119" rx="5" fill="url(#paint4_linear_0_1)" fill-opacity="0.9"/>
+</g>
+<ellipse id="Ellipse 1" cx="148.5" cy="573" rx="215.5" ry="214" fill="url(#paint5_linear_0_1)" fill-opacity="0.4"/>
+<rect id="Rectangle 3" x="1229" y="48" width="300" height="300" rx="25" fill="#FFFBFB" fill-opacity="0.9"/>
+<g id="placeholder-logo"><g transform="translate(1229,48) translate(19.9,0.0) scale(8.1301)"><style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="32.95" y1="26.3048" x2="-0.9788" y2="12.7367" gradientTransform="matrix(1 0 0 -1 0 38)">
+	<stop  offset="0" style="stop-color:#C200FB"/>
+	<stop  offset="0.4897" style="stop-color:#3772FF"/>
+	<stop  offset="1" style="stop-color:#5AC4BE"/>
+</linearGradient>
+<path class="st0" d="M30.3,13.9v12.9L16,35L1.7,26.7V10.2L16,1.9l11,6.4l1.7-1L16,0L0,9.2v18.5l16,9.2l16-9.2V12.9L30.3,13.9z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="32.2949" y1="27.9428" x2="-1.6339" y2="14.3747" gradientTransform="matrix(1 0 0 -1 0 38)">
+	<stop  offset="0" style="stop-color:#C200FB"/>
+	<stop  offset="0.4897" style="stop-color:#3772FF"/>
+	<stop  offset="1" style="stop-color:#5AC4BE"/>
+</linearGradient>
+<path class="st1" d="M12,26.8H9.6v-8h8c0.8,0,1.5-0.3,2-0.9c0.5-0.5,0.8-1.3,0.8-2c0-0.4-0.1-0.7-0.2-1.1c-0.1-0.3-0.4-0.7-0.6-0.9
+	c-0.3-0.3-0.6-0.5-0.9-0.6S18,13,17.6,13h-8v-2.4h8c1.4,0,2.7,0.6,3.7,1.6c1,1,1.6,2.3,1.6,3.7c0,1.1-0.3,2.1-0.9,3
+	c-0.6,0.8-1.4,1.5-2.3,1.9c-0.9,0.3-1.9,0.4-2.9,0.4H12V26.8z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="35.6876" y1="19.4591" x2="1.7588" y2="5.891" gradientTransform="matrix(1 0 0 -1 0 38)">
+	<stop  offset="0" style="stop-color:#C200FB"/>
+	<stop  offset="0.4897" style="stop-color:#3772FF"/>
+	<stop  offset="1" style="stop-color:#5AC4BE"/>
+</linearGradient>
+<path class="st2" d="M22.8,26.6H20l-2.2-3.8c0.9-0.1,1.7-0.2,2.5-0.5L22.8,26.6z"/>
+<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="32.0678" y1="28.5037" x2="-1.861" y2="14.9356" gradientTransform="matrix(1 0 0 -1 0 38)">
+	<stop  offset="0" style="stop-color:#C200FB"/>
+	<stop  offset="0.4897" style="stop-color:#3772FF"/>
+	<stop  offset="1" style="stop-color:#5AC4BE"/>
+</linearGradient>
+<path class="st3" d="M28.7,11.2l1.7,0.9l1.7-0.9V9.2l-1.7-1l-1.7,1V11.2z"/></g></g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="0" y1="198" x2="1584" y2="198" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3D052C"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_1" x1="323" y1="-224" x2="323" y2="352" gradientUnits="userSpaceOnUse">
+<stop stop-color="#28F6F2" stop-opacity="0.4"/>
+<stop offset="1" stop-color="#17908E" stop-opacity="0.7"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_1" x1="148.5" y1="38" x2="148.5" y2="140" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#999999"/>
+</linearGradient>
+<linearGradient id="paint3_linear_0_1" x1="38" y1="260" x2="26" y2="260" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#737373"/>
+</linearGradient>
+<linearGradient id="paint4_linear_0_1" x1="38" y1="97.5" x2="26" y2="97.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#737373"/>
+</linearGradient>
+<linearGradient id="paint5_linear_0_1" x1="27.5" y1="434.5" x2="148.5" y2="787" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E21BC"/>
+<stop offset="1" stop-color="#150F56"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1584" height="396" fill="white"/>
+</clipPath>
+</defs>
+</svg>
