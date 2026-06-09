@@ -13,7 +13,7 @@ Every time you connect n8n to raydium, you waste hours mapping endpoints, defini
 
 **What if connecting n8n to raydium took 5 minutes, not half a day?**
 
-This node gives you **2+ resources** out of the box: **V 2**, **Default**: with full CRUD operations, typed parameters, and zero manual configuration.
+This node gives you **2+ resources** out of the box: **v2**, **Default**: with full CRUD operations, typed parameters, and zero manual configuration.
 
 ---
 
@@ -53,10 +53,47 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| V 2 | GET Get Info, GET Get Rpcs, GET Get Version, GET Get Ido Infos, GET Get Ido Project Info, GET Get Migrate Lp, GET Get Chain Time, GET Get Coin Price, GET Get Farm Info, GET Get Pairs All, GET Get Pairs, GET Get Token Raydium, GET Get Liquidity, GET Get Liquidity Ui Swap, GET Get Liquidity Item Mint, GET Get Farm, GET Get Farm V2, GET Get Farm Staker, GET Get Amm Info, GET Get Pools, GET Get Position Line R |
-| Default | GET Get Pools, GET Get Pairs, GET Get Info, GET Get Self Info, GET Get Self Ip, GET Get Pyth Mainnet Pools, GET Totalcoins, GET Circulating, GET Server Check |
+<details>
+<summary><b>v2</b> (21 operations)</summary>
+
+- Get Info
+- Get Rpcs
+- Get Version
+- Get Ido Infos
+- Get Ido Project Info
+- Get Migrate Lp
+- Get Chain Time
+- Get Coin Price
+- Get Farm Info
+- Get Pairs All
+- Get Pairs
+- Get Token Raydium
+- Get Liquidity
+- Get Liquidity UI Swap
+- Get Liquidity Item Mint
+- Get Farm
+- Get Farm V2
+- Get Farm Staker
+- Get Amm Info
+- Get Pools
+- Get Position Line R
+
+</details>
+
+<details>
+<summary><b>Default</b> (9 operations)</summary>
+
+- Get Pools
+- Get Pairs
+- Get Info
+- Get Self Info
+- Get Self Ip
+- Get Pyth Mainnet Pools
+- Get Totalcoins
+- Get Circulating
+- Get Server Check
+
+</details>
 
 ---
 

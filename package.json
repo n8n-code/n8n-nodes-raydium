@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-raydium",
-  "version": "1.0.8",
-  "description": "Raydium automated market maker and liquidity provider on Solana powering swaps farms and token launches",
+  "version": "1.0.9",
+  "description": "Raydium AMM liquidity provider Solana swaps farms token launches",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-raydium",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "raydium"

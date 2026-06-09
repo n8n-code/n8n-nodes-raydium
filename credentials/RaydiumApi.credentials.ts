@@ -8,7 +8,7 @@ import type {
 export class RaydiumApi implements ICredentialType {
 	name = 'N8nDevRaydiumApi';
 
-	displayName = 'raydium API';
+	displayName = 'Raydium API';
 
 	icon: Icon = { light: 'file:../nodes/Raydium/raydium.svg', dark: 'file:../nodes/Raydium/raydium.dark.svg' };
 
@@ -22,7 +22,7 @@ export class RaydiumApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'https://api.example.com',
-			description: 'The base URL of your raydium API server',
+			description: 'The base URL of your Raydium API server',
 		},
 		{
 			displayName: 'API Key',

@@ -1,17 +1,17 @@
 import { NodeConnectionTypes, type INodeType, type INodeTypeDescription } from 'n8n-workflow';
-import { v2Description } from './resources/v-2';
+import { v2Description } from './resources/v2';
 import { defaultDescription } from './resources/default';
 
 export class Raydium implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'raydium',
+		displayName: 'Raydium',
 		name: 'N8nDevRaydium',
 		icon: { light: 'file:./raydium.svg', dark: 'file:./raydium.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Raydium automated market maker and liquidity provider on Solana powering swaps farms and token launches',
-		defaults: { name: 'raydium' },
+		description: 'Raydium AMM liquidity provider Solana swaps farms token launches',
+		defaults: { name: 'Raydium' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -36,8 +36,8 @@ export class Raydium implements INodeType {
 			"noDataExpression": true,
 			"options": [
 				{
-					"name": "V 2",
-					"value": "V 2",
+					"name": "v2",
+					"value": "v2",
 					"description": ""
 				},
 				{
