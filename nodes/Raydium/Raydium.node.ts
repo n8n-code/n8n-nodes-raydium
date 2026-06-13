@@ -3,32 +3,32 @@ import { v2Description } from './resources/v2';
 import { defaultDescription } from './resources/default';
 
 export class Raydium implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Raydium',
-		name: 'N8nDevRaydium',
-		icon: { light: 'file:./raydium.svg', dark: 'file:./raydium.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Raydium AMM liquidity provider Solana swaps farms token launches',
-		defaults: { name: 'Raydium' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevRaydiumApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Raydium',
+                name: 'N8nDevRaydium',
+                icon: { light: 'file:./raydium.svg', dark: 'file:./raydium.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Raydium AMM liquidity provider Solana swaps farms token launches',
+                defaults: { name: 'Raydium' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevRaydiumApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -50,6 +50,6 @@ export class Raydium implements INodeType {
 		},
 		...v2Description,
 		...defaultDescription
-		],
-	};
+                ],
+        };
 }
